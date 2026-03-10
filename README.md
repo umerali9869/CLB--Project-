@@ -72,27 +72,27 @@ A Classic Load Balancer (CLB) distributes incoming client traffic across multipl
 - Add instance (server-1, server-2, server-3)
 - Create load balancer
   
-![Reference Image](./IMG/Screenshot%202026-03-04%20130003.png)
+![Reference Image](./IMG/Screenshot%202026-03-04%20125853.png)
 
 ### Step 3: Copy DNS Name.
 
-![Reference Image](./IMG/Screenshot%202026-03-04%20125853.png)
+![Reference Image](./IMG/Screenshot%202026-03-04%20130003.png)
 
 ### Step 4: DNS name paste on the broswer and hit the IP address.
 
 ### **Server-1**
 
-![Reference Image](/img/img4(server-1).png)
+![Reference Image](/IMG/Screenshot%202026-03-04%20130051.png)
 
 ### **Server-2**
 
-![Reference Image](/img/img5(server-2).png)
+![Reference Image](/IMG/Screenshot%202026-03-04%20130112.png)
 
 ### **Server-3**
 
-![Reference Image](/img/img6(server-3).png)
+![Reference Image](/IMG/Screenshot%202026-03-04%20130133.png)
 
-## :pushpin:**Summary**
+**Summary**
 I deployed a highly available web application in AWS using a Classic Load Balancer, three EC2 instances, a user data script for automation, and a DNS name for access.
 
 First, I launched three Amazon EC2 instances to host the application. During instance creation, I used a User Data script to automatically install and configure the web server (such as Apache or Nginx) and deploy the application code. This ensured that all instances were configured identically without manual setup.
