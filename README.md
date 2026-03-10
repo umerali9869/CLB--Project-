@@ -5,7 +5,15 @@
 I deployed my application on Amazon EC2 instances behind a Elastic Load Balancing – Classic Load Balancer to ensure high availability, scalability, and fault tolerance.
 
 A Classic Load Balancer (CLB) distributes incoming client traffic across multiple EC2 instances running in different Availability Zones. This helps prevent a single server from becoming overloaded and ensures the application remains available even if one instance fails.
+---
 
+## Architecture Diagram
+![Reference Image](./IMG/architecture.jpeg)
+
+
+
+
+---
 ## :bulb: Deployment Steps
 
 ### Step 1: Launch Three EC2 Instance.
